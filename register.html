@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <!-- Google Fonts for modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Decorative background elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <div class="login-container">
+        <div class="login-header">
+            <h1>Create an Account</h1>
+            <p>Please enter your details to sign up.</p>
+        </div>
+
+        <form class="login-form" action="index.html">
+            <div class="input-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" placeholder="Enter your full name" required />
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required />
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="••••••••" required />
+            </div>
+
+            <div class="input-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" placeholder="••••••••" required />
+            </div>
+
+            <button type="submit" class="sign-in-btn">Sign Up</button>
+        </form>
+
+        <p class="sign-up-text">
+            Already have an account? <a href="index.html">Sign in</a>
+        </p>
+    </div>
+
+    <footer class="page-footer">
+        <p>DhenCarzon 2026</p>
+    </footer>
+</body>
+</html>
